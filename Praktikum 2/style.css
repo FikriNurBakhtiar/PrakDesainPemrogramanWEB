@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    border:1px solid #aaa;
+}
+
+header {
+    height: 5vh;
+    background: #777;
+}
+
+.box_1 {
+    display: grid;
+}
+
+/* Subbox1 */
+.subbox1 {
+    background: #fff;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+}
+
+.subbox1 > .article1 {
+    background: url(logo.png);
+    background-size: contain;
+    width: 5em;
+    height: 5em;
+    margin: 1em;
+    align-self: center;
+}
+
+.subbox1 > .article2 {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 20em;
+    height: 2em;
+    text-align: center;
+    margin: 0 1em 1em 1em;
+    align-self: center;
+}
+
+/* Subbox2 */
+.subbox2 {
+    height: 30em;
+    background: url(gedung\ sate.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Subbox3 */
+.subbox3 {
+    margin-top: 100px;
+    background: #fff;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+}
+
+.subbox3 > .article1 {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 20em;
+    height: 2em;
+    text-align: center;
+    margin: 0 1em 1em 1em;
+    align-self: center;
+}
+
+
+.subbox3 > .article2 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.subbox3 > .article2 > .subarticle1 {
+    background: url(green_canyon_pangandaran.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 28em;
+    height: 15em;
+    margin: 0 1em 1em 1em;
+}
+
+.subbox3 > .article2 > .subarticle2 {
+    background: url(taman_nusantara.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 28em;
+    height: 15em;
+    margin: 0 1em 1em 1em;
+}
+
+/* Subbox4 */
+.subbox4 {
+    margin-top: 100px;
+    background: #777;
+    height: fit-content;
+    border: 1px solid #777;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.subbox4 > .article1 {
+    background: #fff;
+    width: 10em;
+    height: 15em;
+    margin: 1em;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+
+.subbox4 > .article2 {
+    background: #fff;
+    width: 10em;
+    height: 15em;
+    margin: 1em;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+
+.subbox4 > .article3 {
+    background: #fff;
+    width: 10em;
+    height: 15em;
+    margin: 1em;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+
+.subarticle1 {
+    height: 2em;
+    margin: 0 1em 1em 1em;
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.subbox4 > .article1 > .subarticle2 {
+    background: url(Cilok.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.subbox4 > .article2 > .subarticle2 {
+    background: url(combro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.subbox4 > .article3 > .subarticle2 {
+    background: url(karedok.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.subarticle2 {
+    background-color: #bbb;
+    height: 4em;
+    margin: 0 1em 1em 1em;
+}
+
+/* Subbox5 */
+.subbox5 {
+    background: #fff;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.subbox5 > .article1 {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+    width: 25em;
+    height: 2em;
+    align-self: center;
+}
+
+.subbox5 > .article2 {
+    background: url(angklung.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 15em;
+    height: 20em;
+    align-self: center;
+}
+
+/* Sububox6 */
+.subbox6 {
+    background: #fff;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    margin-top: 100px;
+}
+
+.subbox6 > .article1 {
+    display: flex;
+    flex-flow: column;
+    background: #aaa;
+    padding-top: 1em;
+}
+
+.subbox6 > .article1 > .subarticle1 {
+    background: #fff;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    width: 25em;
+    height: 2em;
+    margin: 0 1em 1em 1em;
+    align-self: center;
+}
+
+.subbox6 > .article1 > .subarticle2 {
+    background: url(kecapi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 28em;
+    height: 15em;
+    margin: 0 1em 1em 1em;
+    align-self: center;
+}
+
+.subbox6 > .article2 {
+    display: flex;
+    flex-flow: column;
+    background: #777;
+    padding-top: 1em;
+}
+
+.subbox6 > .article2 > .subarticle1 {
+    background: #fff;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    width: 25em;
+    height: 2em;
+    margin: 0 1em 1em 1em;
+    align-self: center;
+}
+
+.subbox6 > .article2 > .subarticle2 {
+    background: url(calung.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 28em;
+    height: 15em;
+    margin: 0 1em 1em 1em;
+    align-self: center;
+}
+
+/* Footer */
+footer {
+    height: 5vh;
+    background: #777;
+    margin-top: 1em;
+}

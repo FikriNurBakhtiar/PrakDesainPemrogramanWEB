@@ -1,0 +1,97 @@
+body {
+    margin: 2em;
+    padding: 0;
+}
+
+.box1, .box2, .box3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.title {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    width: 20em;
+    height: 2em;
+}
+
+.article1 {
+    display: flex;
+    flex-flow: column;
+}
+
+.box1 > .article1 > .subarticle1 {
+    background: #fff;
+    width: 10em;
+    height: 2em;
+    align-self: flex-start;
+    text-decoration: none;
+    color: #222;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.box1 > .article1 > .subarticle2 {
+    background: url(green_canyon_pangandaran.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25em;
+    height: 20em;
+    margin: 0 1em 1em 1em;
+    align-self: flex-start;
+}
+
+/* article2 */
+.article2 {
+    display: flex;
+    flex-flow: column;
+    margin-top: 3em;
+}
+
+.article2 > .subarticle1 {
+    width: 40em;
+    height: 2em;
+    margin: 0 1em 1em 1em;
+    align-self: flex-start;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 20px;
+}
+
+/* Box 2 */
+
+.box2 > .article1 > .subarticle1 {
+    background: #fff;
+    width: 10em;
+    height: 3em;
+    align-self: flex-start;
+    text-decoration: none;
+    color: #222;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.box2 > .article1 > .subarticle2 {
+    background: url(taman_nusantara.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25em;
+    height: 20em;
+    margin: 0 1em 1em 1em;
+    align-self: flex-start;
+}
