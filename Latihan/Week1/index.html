@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan desain dan pemrograman web</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="main_title"> <q>My Shoes</q> Contest Entry Form </h1>
+        <p id="first_paragraph"> Want to trade in your old sneakers for a custom pair of Forcefields? 
+            <br>Make a case for why your shoes have got to go and you may be on of  ten lucky winners. </p>
+    </header>
+    <main>
+        <form action="./hasil.html">
+            <fieldset> 
+                <legend> Contest Entry Information </legend>
+                <label for="name"> Name : </label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email"> Email Address : </label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="telephone"> Telephone Number : </label>
+                <input type="tel" id="telephone" name="telephone"><br><br>
+                <label for="field"> My shoes are SO old... </label><br>
+                <textarea id="field" name="field" rows="5" cols="100">No more than 300 characters long</textarea>
+            </fieldset>
+        </form>
+
+        <h2> Design your custom Forcefields : </h2>
+        <form>
+            <fieldset>
+                <legend> Custom Shoe Design </legend>
+            <form action="./hasil.html">
+                <fieldset>
+                    <legend> Color <em> (choose one) </em></legend>
+                    <input type="radio"> Red </input><br>
+                    <input type="radio"> Blue </input><br>
+                    <input type="radio"> Black </input><br>
+                    <input type="radio"> Silver </input><br>
+                </fieldset>
+                <fieldset>
+                    <legend> Features <em> (Choose as many as you want) </em></legend>
+                    <input type="checkbox"> Sparkley Laces </input><br>
+                    <input type="checkbox"> Metallic Logo </input><br>
+                    <input type="checkbox"> Light-up Heels </input><br>
+                    <input type="checkbox"> MP3-enabled </input><br>
+                </fieldset>
+                <fieldset>
+                    <legend> Size </legend>
+                    <label for="sizes"> Sizes reflect standard men's sizes</label>
+                    <input type="number" min="5" max="15">
+                </fieldset>
+            </form>
+            </fieldset>
+        <form>
+            <br>
+            <input type="submit" value="kirim" formaction="hasil.html">
+            <input type="reset" value="reset">
+        </form>
+</body>
+
+</html>

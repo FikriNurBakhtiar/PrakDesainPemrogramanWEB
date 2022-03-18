@@ -1,0 +1,41 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 20px;
+}
+
+hr {
+    text-align: center;
+}
+
+table {
+    width: 500px;
+    height: 200px;
+}
+
+.judul {
+    color: rgba(230, 230, 230, 0.867);
+    background-color: #751975 ;
+}
+
+.isi-1 {
+    background-color: #DDA0DD;
+}
+
+.isi-2 {
+    background-color: #FFC0CB;
+}
+
+.isi-3 {
+    background-color: #DDA0DD;
+}
+
+.isi-4 {
+    background-color: #FFC0CB;
+}
+
+tr:hover {
+    background-color: #F0E6F0;
+};
